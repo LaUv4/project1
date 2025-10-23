@@ -65,4 +65,27 @@ cd C:\Users\Marina\project1
 python src/main/python/main.py
 
 ## Структура проекта
+project1/
+├── docs/
+│ └── Blockdiagrams/
+│    ├── blockdiagrams1.puml
+│    ├── blockdiagrams2.puml
+│    ├── blockdiagrams3.puml
+│    ├── blockdiagrams_1.png
+│    ├── blockdiagrams_2.png
+│    ├── blockdiagrams_3.png
+│  └── Blockdiagrams/
+│    ├── Use-Case1.puml
+│    ├── Use-Case2.puml
+│    ├── Use-Case3.puml
+│    ├── Use-Case_1.png
+│    ├── Use-Case_2.png
+│    ├── Use-Case_3.png
+├── src/
+|    ├── main.py
+│      ├── python
+|        ├── main.py
+│ 
+├── .gitignore
+└── README.md
 
