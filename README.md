@@ -68,13 +68,21 @@ python src/main/python/main.py
 
 project1/
 |── docs/
+
 │ └── Blockdiagrams/
+
 │    ├── blockdiagrams1.puml
+
 │    ├── blockdiagrams2.puml
+
 │    ├── blockdiagrams3.puml
+
 │    ├── blockdiagrams_1.png
+
 │    ├── blockdiagrams_2.png
+
 │    ├── blockdiagrams_3.png
+
 │  └── Blockdiagrams/
 │    ├── Use-Case1.puml
 │    ├── Use-Case2.puml
