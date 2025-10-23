@@ -97,13 +97,13 @@ project1/
 
 │    ├── Use-Case_3.png
 
-├── src/
+|  ├── src/
 
-|    ├── main
+|  ├── main
 
-│       ├── python
+|   ├── python
 
-|          ├── main.py
+|    ├── main.py
 
 ├── .gitignore
 
