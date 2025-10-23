@@ -65,6 +65,7 @@ cd C:\Users\Marina\project1
 python src/main/python/main.py
 
 ## Структура проекта
+
 project1/
 ├── docs/
 │ └── Blockdiagrams/
