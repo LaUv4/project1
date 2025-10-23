@@ -101,9 +101,9 @@ project1/
 
 |    ├── main.py
 
-│      ├── python
+│       ├── python
 
-|        ├── main.py
+|          ├── main.py
 
 ├── .gitignore
 
