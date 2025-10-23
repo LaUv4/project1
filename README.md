@@ -67,7 +67,7 @@ python src/main/python/main.py
 ## Структура проекта
 
 project1/
-├── docs/
+|── docs/
 │ └── Blockdiagrams/
 │    ├── blockdiagrams1.puml
 │    ├── blockdiagrams2.puml
