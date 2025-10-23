@@ -99,7 +99,7 @@ project1/
 
 ├── src/
 
-|    ├── main.py
+|    ├── main
 
 │       ├── python
 
