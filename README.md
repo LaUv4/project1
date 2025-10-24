@@ -55,8 +55,18 @@
 #### - Pycharm
 
 ### Запуск проекта
+<<<<<<< HEAD
+=======
+#### ссылка на репозиторий
+https://github.com/LaUv4/project1.git
+
+>>>>>>> 280a7a2 (Initial commit)
 ### Переход в папку проекта
 cd C:\Users\Marina\project1
 
 ### Запуск программы
 python src/main/python/main.py
+<<<<<<< HEAD
+=======
+
+>>>>>>> 280a7a2 (Initial commit)

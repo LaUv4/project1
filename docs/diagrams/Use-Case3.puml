@@ -1,0 +1,14 @@
+@startuml
+actor "Администратор" as User
+
+
+    usecase "Авторизация в приложении" as US_Register
+    usecase "Подтвердить записть" as UC_Login
+    usecase "Записать пациента на прием" as UC_Login1
+
+
+User -- US_Register
+US_Register -- UC_Login
+US_Register -- UC_Login1
+
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+actor "Врач" as User
+
+
+    usecase "Авторизация в приложении" as US_Register
+    usecase "Заполнить историю болезни" as UC_Login
+    usecase "Записать жалобы на здоровье" as UC_Login1
+    usecase "Назначить план лечения" as UC_Login2
+
+User -- US_Register
+US_Register -- UC_Login
+US_Register -- UC_Login1
+US_Register -- UC_Login2
+
+@enduml

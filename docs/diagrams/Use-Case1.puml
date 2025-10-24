@@ -1,0 +1,13 @@
+@startuml
+
+actor Пациент as Patient
+
+usecase "Авторизация в системе" as Login
+usecase "Просмотр назначенных препаратов" as ViewMeds
+usecase "Отметить принятый препарат" as MarkMed
+
+
+ViewMeds -- Login
+Patient -- Login
+Login -- MarkMed
+@enduml
