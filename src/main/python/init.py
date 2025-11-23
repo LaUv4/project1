@@ -29,26 +29,11 @@ class HospitalSystem:
             cursor.execute('''
                            CREATE TABLE IF NOT EXISTS doctors
                            (
-                               doctor_id
-                               INTEGER
-                               PRIMARY
-                               KEY,
-                               surname
-                               TEXT
-                               NOT
-                               NULL,
-                               name
-                               TEXT
-                               NOT
-                               NULL,
-                               patronymic
-                               TEXT
-                               NOT
-                               NULL,
-                               password
-                               TEXT
-                               NOT
-                               NULL
+                               doctor_id INTEGER PRIMARY KEY,
+                               surname TEXT NOT NULL,
+                               name TEXT NOT NULL,
+                               patronymic TEXT NOT NULL,
+                               password TEXT NOT NULL
                            )
                            ''')
 
@@ -84,26 +69,12 @@ class HospitalSystem:
             cursor.execute('''
                            CREATE TABLE IF NOT EXISTS patients
                            (
-                               patient_id
-                               INTEGER
-                               PRIMARY
-                               KEY,
-                               surname
-                               TEXT
-                               NOT
-                               NULL,
-                               name
-                               TEXT
-                               NOT
-                               NULL,
-                               patronymic
-                               TEXT
-                               NOT
-                               NULL,
-                               doctor_id
-                               INTEGER,
-                               FOREIGN
-                               KEY
+                               patient_id INTEGER PRIMARY KEY,
+                               surname TEXT NOT NULL,
+                               name TEXT NOT NULL,
+                               patronymic TEXT NOT NULL,
+                               doctor_id INTEGER,
+                               FOREIGN KEY
                            (
                                doctor_id
                            ) REFERENCES doctors
@@ -116,16 +87,10 @@ class HospitalSystem:
             cursor.execute('''
                            CREATE TABLE IF NOT EXISTS medical_cards
                            (
-                               patient_id
-                               INTEGER
-                               PRIMARY
-                               KEY,
-                               health_complaints
-                               TEXT,
-                               medical_history
-                               TEXT,
-                               FOREIGN
-                               KEY
+                               patient_id INTEGER PRIMARY KEY,
+                               health_complaints TEXT,
+                               medical_history TEXT,
+                               FOREIGN KEY
                            (
                                patient_id
                            ) REFERENCES patients
