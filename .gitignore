@@ -29,4 +29,7 @@ var/
 # OS
 .DS_Store
 Trumds.db
+*.db
+*.sqlite
+*.sqlite3
 
