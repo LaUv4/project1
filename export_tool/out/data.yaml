@@ -1,0 +1,195 @@
+- 
+  patient_id: 1
+  surname: Белкин
+  name: Дмитрий
+  patronymic: Дмитриевич
+  doctor_id: 111
+
+  doctor:
+    surname: Антибиотиков
+    name: Андрей
+    patronymic: Андреевич
+
+  medical_card:
+    health_complaints: Головная боль, кашель, температура
+    medical_history: Ранее болел ОРВИ и простой простудой
+    treatment_plan: 
+
+  appointments:
+    - 
+      appointment_id: 1
+      appointment_date: 2025-01-15
+      appointment_time: "10:00"
+      confirmed: true
+
+  medications:
+    - 
+      medication_id: 1
+      medication_name: Парацетамол
+      usage_description: По 1 таблетке 3 раза в день после еды
+      is_taken: true
+- 
+  patient_id: 2
+  surname: Волков
+  name: Андрей
+  patronymic: Владимирович
+  doctor_id: 111
+
+  doctor:
+    surname: Антибиотиков
+    name: Андрей
+    patronymic: Андреевич
+
+  medical_card:
+    health_complaints: Кашель, высокая температура
+    medical_history: Ранее болел простой простудой
+    treatment_plan: 
+
+  appointments:
+    - 
+      appointment_id: 2
+      appointment_date: 2025-01-16
+      appointment_time: "11:30"
+      confirmed: true
+
+  medications:
+    - 
+      medication_id: 2
+      medication_name: Амоксиклав
+      usage_description: По 1 таблетке 2 раза в день 7 дней
+      is_taken: false
+- 
+  patient_id: 3
+  surname: Котов
+  name: Владислав
+  patronymic: Владиславович
+  doctor_id: 111
+
+  doctor:
+    surname: Антибиотиков
+    name: Андрей
+    patronymic: Андреевич
+
+  medical_card:
+    health_complaints: Озноб, головная боль, головокружение
+    medical_history: Ранее болел ОРВИ
+    treatment_plan: 
+
+  appointments:
+
+  medications:
+    - 
+      medication_id: 3
+      medication_name: Ибупрофен
+      usage_description: По 1 таблетке при температуре
+      is_taken: false
+- 
+  patient_id: 4
+  surname: Медведев
+  name: Михаил
+  patronymic: Михайлович
+  doctor_id: 222
+
+  doctor:
+    surname: Вируснов
+    name: Виталий
+    patronymic: Витальевич
+
+  medical_card:
+    health_complaints: Насморк, красное горло, кашель
+    medical_history: Ранее болел ангиной
+    treatment_plan: 
+
+  appointments:
+    - 
+      appointment_id: 3
+      appointment_date: 2025-01-18
+      appointment_time: "09:00"
+      confirmed: true
+
+  medications:
+    - 
+      medication_id: 4
+      medication_name: Тантум Верде
+      usage_description: По 1 впрыскиванию 3 раза в день
+      is_taken: true
+- 
+  patient_id: 5
+  surname: Стрелкин
+  name: Николай
+  patronymic: Николаевич
+  doctor_id: 222
+
+  doctor:
+    surname: Вируснов
+    name: Виталий
+    patronymic: Витальевич
+
+  medical_card:
+    health_complaints: Насморк, головная боль, головокружение
+    medical_history: Ранее ничем не болел
+    treatment_plan: 
+
+  appointments:
+
+  medications:
+    - 
+      medication_id: 5
+      medication_name: Називин
+      usage_description: По 1 впрыскиванию в каждую ноздрю 2 раза в день
+      is_taken: false
+- 
+  patient_id: 6
+  surname: Петров
+  name: Антон
+  patronymic: Антонович
+  doctor_id: 222
+
+  doctor:
+    surname: Вируснов
+    name: Виталий
+    patronymic: Витальевич
+
+  medical_card:
+    health_complaints: Кашель, озноб
+    medical_history: Ранее болел простой простудой
+    treatment_plan: 
+
+  appointments:
+    - 
+      appointment_id: 4
+      appointment_date: 2025-01-20
+      appointment_time: "16:45"
+      confirmed: true
+
+  medications:
+    - 
+      medication_id: 6
+      medication_name: Арбидол
+      usage_description: По 2 капсулы 4 раза в день
+      is_taken: false
+- 
+  patient_id: 7
+  surname: Соколов
+  name: Олег
+  patronymic: Олегович
+  doctor_id: 222
+
+  doctor:
+    surname: Вируснов
+    name: Виталий
+    patronymic: Витальевич
+
+  medical_card:
+    health_complaints: Кашель, насморк, головная боль, красное горло
+    medical_history: Ранее болел ОРВИ и простой простудой
+    treatment_plan: 
+
+  appointments:
+
+  medications:
+    - 
+      medication_id: 7
+      medication_name: Стрепсилс
+      usage_description: По 1 таблетке каждые 2-3 часа
+      is_taken: false
